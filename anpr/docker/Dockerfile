@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:2.12.0rc1-gpu
 
 RUN apt-get update
 RUN apt-get install -y python-opencv
